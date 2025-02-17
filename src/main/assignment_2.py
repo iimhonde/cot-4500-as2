@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+
 def neville(x, f, w):
     n = len(x)
     nev = [[0.0]  * n for _ in range(n)]

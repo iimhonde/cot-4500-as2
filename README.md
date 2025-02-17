@@ -1,20 +1,20 @@
-# PA-1_Ivie-Imhonde
+# PA-2_Ivie-Imhonde
 
-# Programming Assignment 1
+# Programming Assignment 2
 
 ##  Overview
 This assignment implements numerical methods in Python, including:
-- Bisection Method
-- Fixed-Point Iteration
-- Newton-Raphson Method
-- Approximation Algorithm
+- Neville's method
+- Divided difference method
+-Hermite's polynomial approximation
+- Cubic Spline interpolation
 
 The project follows a structured format to ensure modularity and testability.
 
 ---
 
 ##  Project Structure
-PA-1_Ivie-Imhonde/ │-- src/ │ │-- main/ │ │ │-- assignment_1.py # Main implementation │ │-- test/ │ │ │-- test_assignment_1.py # Test cases │-- requirements.txt # Dependencies │-- README.md # Documentation
+PA-2_Ivie-Imhonde/ │-- src/ │ │-- main/ │ │ │-- assignment_2.py # Main implementation │ │-- test/ │ │ │-- test_assignment_2.py # Test cases │-- requirements.txt # Dependencies │-- README.md # Documentation
 
 
 ---
@@ -28,4 +28,5 @@ Run the following command to install them:
 pip install -r requirements.txt
 
 ## To execute the numerical methods, run:
-python src/main/assignment_1.py
+python -m unittest discover -s src/test
+
